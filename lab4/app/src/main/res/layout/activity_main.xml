@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_widgets_Actualizacion"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_round"
+            android:src="@drawable/ic_reloj">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView9_actualizacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/Actualizacion"
+            android:textColor="#455A64"
+            android:textSize="12sp"
+            android:translationX="15dp"
+            android:translationY="3dp"/>
+
+        <Button
+            android:id="@+id/button_descargar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="70dp"
+            android:translationY="3dp"
+            android:text="@string/Descargar"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/textView_Diadecumple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DiaCumple"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_widgets_Actualizacion" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/textView_fechacumple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FechaCumple"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Diadecumple" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextBtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView_fechacumple" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_cuadro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button2">
+
+        <ImageButton
+            android:id="@+id/imageButton_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_directions_24" />
+        <TextView
+            android:id="@+id/textView5_Restaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NombreRestaurante"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DireccionRestaurante"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5_Restaurante" />
+
+        <TextView
+            android:id="@+id/textView9_horario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/HorarioRestaurante"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8_direccion" />
+
+        <Button
+            android:id="@+id/button3_iniciar"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/TextoBtn2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/button5_detalles"
+            app:layout_constraintTop_toBottomOf="@+id/textView9_horario" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/button5_detalles"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Detalles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button3_iniciar"
+            app:layout_constraintTop_toBottomOf="@+id/textView9_horario" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
