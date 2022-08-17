@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="DiaCumple">Viernes</string>
+    <string name="FechaCumple">11 de Marzo</string>
+    <string name="TextBtn1">Terminar Jornada</string>
+    <string name="NombreRestaurante">CastorsPizza</string>
+    <string name="DireccionRestaurante">Centro Comercial Sankris Mall</string>
+    <string name="HorarioRestaurante">11:00AM - 09:00PM</string>
+    <string name="TextoBtn2">Iniciar</string>
+    <string name="Actualizacion">Actualización disponible</string>
+    <string name="Descargar">Descargar</string>
+    <string name="Detalles">Detalles</string>
+    <string name="MiNombre">Daniel Esteban Morales Urizar</string>
+    <string name="InfoAd">Información Adicional</string>
+    <string name="HorarioAt">Horario de atención</string>
+    <string name="tel">Teléfono</string>
+    <string name="llamar">Llamar</string>
+    <string name="iniciar_vista">Iniciar vista</string>
+</resources>
