@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_option_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:id="@+id/menu_option_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        />
+    <item
+        android:id="@+id/menu_option_library"
+        android:title="@string/your_library"
+        android:icon="@drawable/ic_baseline_library_music_24"
+        />
+</menu>

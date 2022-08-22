@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="your_library">Your Library</string>
+    <string name="bienvenida">Good morning,</string>
+    <string name="nombre">Daniel Morales</string>
+    <string name="your_top_genres">Your top genres</string>
+    <string name="latina">Latina</string>
+    <string name="pop">Pop</string>
+    <string name="hip_hop">Hip hop</string>
+    <string name="rock">Rock</string>
+    <string name="most_recent">Most recent</string>
+    <string name="liked_songs">Liked Songs</string>
+    <string name="songs">Songs</string>
+</resources>
