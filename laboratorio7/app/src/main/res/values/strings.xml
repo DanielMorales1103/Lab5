@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">laboratorio7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="laboratorio_7">Laboratorio 7</string>
+    <string name="ingresa_correo">Ingresa correo</string>
+    <string name="nueva_cuenta">Nueva cuenta</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="actualizar_perfil">Actualizar perfil</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="error">El correo ingresado no existe</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="saludo1">Hola</string>
+    <string name="saludo2">necesitamos que actualices tu perfil</string>
+    <string name="textoBotonCrearUser">¿Nuevo usuario? ¡Crea tu cuenta aquí!</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="saludo">¡Buenos días!</string>
+</resources>

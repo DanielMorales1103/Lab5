@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginFragment">
+
+
+    <TextView
+        android:id="@+id/title_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laboratorio_7"
+        android:textSize="35sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ingreso_correo_login"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ingreso_correo_login"
+        app:layout_constraintTop_toBottomOf="@id/title_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/botonNuevoUsuarioLogin"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresa_correo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/botonNuevoUsuarioLogin"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoBotonCrearUser"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/botonIniciarSesionLogin"
+        app:layout_constraintTop_toBottomOf="@id/ingreso_correo_login"
+        android:textColor="@color/teal_200"/>
+    <Button
+        android:id="@+id/botonIniciarSesionLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/botonNuevoUsuarioLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/iniciar_sesion"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

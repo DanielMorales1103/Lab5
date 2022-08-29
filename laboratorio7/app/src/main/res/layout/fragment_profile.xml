@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+
+    <TextView
+        android:id="@+id/titleProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mi_perfil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="35sp"
+        android:layout_marginTop="16dp"/>
+    <ImageView
+        android:id="@+id/iconCamera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/titleProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_camera"
+        android:background="@drawable/ic_baseline_circle_24"
+        android:padding="28dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ingreso_correo_profile"
+        app:layout_constraintTop_toBottomOf="@id/iconCamera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:startIconDrawable="@drawable/ic_arroba"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/ingresa_correo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/botonActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:text="@string/actualizar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
